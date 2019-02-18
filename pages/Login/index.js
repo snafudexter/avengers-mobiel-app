@@ -91,6 +91,7 @@ export default class Login extends React.Component {
             </View>
             <RkButton
               onPress={() => {
+                if(this.state.username === "arjun" && this.state.password === "arjun123")
                 this.props.history.push('/search')
               }}
             >

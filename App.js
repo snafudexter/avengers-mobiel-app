@@ -57,8 +57,8 @@ export default class App extends React.Component {
         <NativeRouter>
           <Switch>
             {/* <Route exact path="/" render={() => (<Redirect to="/dashboard" />)} /> */}
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/" component={Search} />
+            <Route exact path="/" component={Login} />
+            <Route exact path="/search" component={Search} />
             {/* <Route component={Container} /> */}
           </Switch>
         </NativeRouter>
